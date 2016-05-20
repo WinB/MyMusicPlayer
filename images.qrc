@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>png/Add.png</file>
+        <file>png/bakward.png</file>
+        <file>png/Delete.png</file>
+        <file>png/forward.png</file>
+        <file>png/music.png</file>
+        <file>png/next.png</file>
+        <file>png/pause.png</file>
+        <file>png/play.png</file>
+        <file>png/reverse.png</file>
+        <file>png/stop.png</file>
+    </qresource>
+</RCC>
