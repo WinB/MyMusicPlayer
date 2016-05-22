@@ -4,6 +4,9 @@
 #include <QDialog>
 #include <QMediaPlayer>
 #include <QFileDialog>
+#include <QMediaPlaylist>
+#include <QMediaMetaData>
+
 
 
 namespace Ui {
@@ -25,9 +28,20 @@ private slots:
 
     void on_btn_pause_clicked();
 
+    void on_btn_prev_clicked();
+
+    void on_btn_next_clicked();
+
+    void on_volume_valueChanged(int value);
+
+    void on_playTimeSlider_valueChanged(int value);
+
+    void playProgressUpdate();
 private:
     Ui::MyMusicPlayer *ui;
     QMediaPlayer *player;
+    QMediaPlaylist *playlist;
+    qint64 value;
 
 };
 
